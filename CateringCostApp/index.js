@@ -11,3 +11,17 @@ var connection = mysql.createConnection ({
     database: '' //database name within ''
 })
 */
+
+/*$('.message a').click(function() {
+    $('.form').animate({height: "toggle", opacity: "toggle"}, "slow");
+})*/
+
+$(document).ready(function(){
+    $(".register").hide();
+    $("#showSignUp").click(function(event){
+        event.preventDefault();
+        $(".login").fadeToggle("slow");
+        $(".register").toggle(1000);
+
+    });
+});

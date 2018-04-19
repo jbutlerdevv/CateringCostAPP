@@ -10,10 +10,9 @@
     <link rel="stylesheet" href="css\login.css">
     <link rel="stylesheet" href="css\style.css">
 </head>
-<body id="bodyContact">
-    <nav class="navbar navbar-default navbar-static-top navbar-inverse" role="navigation">
-        <div class="container">
-             
+<body id="bodyLogin">
+    <nav class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
+        <div class="container">             
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                 <span class="sr-only">Toggle navigation</span>
@@ -22,55 +21,91 @@
                 <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="http://yourwebsite.com/"></a>
-            </div>
-             
+            </div>             
             <div align="center" class="navbar-collapse collapse">
-                <ul class="nav nav-pills">
-                    <li  class="active">
-                        <a href="login.html" class="focus">Login</a>
-                    </li>
-                    <li>
-                        <a href="create.html">Create New Report</a>
-                    </li>
-                    <li>
-                        <a href="liquor.html">Liquor</a>
-                    </li>
-                    <li>
-                        <a href="beer&wine.html">Beer & Wine</a>
-                    </li>
-                    <li>
-                        <a href="miscellaneous.html">Miscellaneous</a>
-                    </li>
+                <ul class="nav nav-pills navbar-right">
+                    <li role="presentation"><a class="navlink" href="login.html">Login</a></li>
+                    <li role="presentation"><a class="navlink" href="create.html">Create New Report</a></li>
+                    <li role="presentation"><a class="navlink" href="liquor.html">Liquor</a></li>
+                    <li role="presentation"><a class="navlink" href="beer&wine.html">Beer & Wine</a></li>
+                    <li role="presentation"><a class="navlink" href="miscellaneous.html">Miscellaneous</a></li>
                 </ul>
-            </div><!--/.nav-collapse -->             
+            </div>             
         </div>
     </nav>
-    <div class="container">
-            <div class="col-xs-10">
-                <div class="page-header">
-                    <h1>Welcome to...</h1>
-                    <h2><img src="C:\Users\Receiving\Desktop\CateringCostApp\img\Mortons2.jpg"></h2>
-                </div>
-            </div>
+        <div class="container">           
+            <div class="page-header">
+                <h2><img class="image1" src="http://www.asolorep.org/editor_files/images/Morton's%20Gourmet%20Market%20and%20Catering_11_05_09(1).jpg"></h2>
+            </div>            
         </div>
-    <h1 align="center">Login or Register HERE!</h1>
-        <div class="login-page">
-            <div class="form">
-                <form class="register-form">
-                    <input type="text" placeholder="user name"/>
-                    <input type="text" placeholder="password"/>
-                    <input type="text" placeholder="email id"/>
+    <div class="form">
+        <div class="login">
+            <h3>Login</h3><br>
+            <form role="form">
+                <div>
+                    <input placeholder="Username" type="text" class="form-control" >
+                </div><br>
+                <div>
+                    <input placeholder="Password" type="text" class="form-control">
+                </div><br>
                     <button type="submit" class="btn btn-primary">
-                        <span class="glyphicon glyphicon-plus"></span>Create</button>
-                </form>
-            </div>
+                        <span class="glyphicon glyphicon-plus">Login</span>
+                    </button>
+                    <p class="message">Not Registered? <a href="#">Register</a></p>
+            </form>
         </div>
+        <div class="register">
+            <h3>Register New Account</h3><br>        
+            <form role="form">
+                <div>
+                    <input placeholder="New Username" type="text" class="form-control" >
+                </div><br>
+                <div>
+                    <input placeholder=" New Password" type="text" class="form-control">
+                </div><br>
+                <div> 
+                    <input placeholder="Email Address" type="text" class="form-control">
+                </div><br>
+                <div> 
+                    <input placeholder="First Name" type="text" class="form-control">
+                </div><br>
+                <div> 
+                    <input placeholder="Last Name" type="text" class="form-control">
+                </div><br>
+                    <button type="submit" class="btn btn-primary">
+                        <span class="glyphicon glyphicon-plus">Create</span>
+                    </button>
+                    <p class="message">Already Registered? <a href="#">Login</a></p>
+            </form>
+        </div>
+    </div>
+        <footer id="footer" class="page-footer font-small black pt-4 mt-4">
+                <div class="container-fluid text-center text-md-left">
+                    <div class="row">               
+                        <div class="col-md-6">
+                            <h4 class="text-uppercase">Contact</h4>
+                            <p>If you have any questions about this web application, please feel free to e-mail the creator of this app...<br><a href="mailto:jbutler@mortonsmarket.com"><strong>Joshua Butler</strong></a></p>
+                        </div>
+                        <div class="col-md-6">
+                            <h4 class="text-uppercase">Links</h4>
+                            <ul class="list-unstyled">
+                                <li>
+                                        <a href="login.html">Back to Login Page</a>
+                                </li>
+                                <li>
+                                        <a href="create.html">Begin New Report</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>                
+        </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
-<script src="index.js"></script> 
+    <script src="index.js"></script> 
 </body>
 </html>
