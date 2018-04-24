@@ -1,7 +1,7 @@
-
-liquorForm {
-    border: solid white 1px;
+#liquor-table {
+  border: solid white 1px;
   max-width: 325px;
+  margin: auto;
   padding: 45px;
-  border-radius: 25px;
+  color: white;
 }
