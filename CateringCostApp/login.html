@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css\login.css">
     <link rel="stylesheet" href="css\style.css">
 </head>
-<body id="bodyLogin">
+<body>
     <nav class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
         <div class="container">             
             <div class="navbar-header">
@@ -38,7 +38,7 @@
                 <h2><img class="image1" src="http://www.asolorep.org/editor_files/images/Morton's%20Gourmet%20Market%20and%20Catering_11_05_09(1).jpg"></h2>
             </div>            
         </div>
-    <div class="form">
+    <div class="loginRegister">
         <div class="login">
             <h3>Login</h3><br>
             <form role="form">
@@ -51,7 +51,7 @@
                     <button type="submit" class="btn btn-primary">
                         <span class="glyphicon glyphicon-plus">Login</span>
                     </button>
-                    <p class="message">Not Registered? <a href="#">Register</a></p>
+                    <p class="message">Not Registered?<a id="registerLink" href="#"><br>Register</a></p>
             </form>
         </div>
         <div class="register">
@@ -75,7 +75,7 @@
                     <button type="submit" class="btn btn-primary">
                         <span class="glyphicon glyphicon-plus">Create</span>
                     </button>
-                    <p class="message">Already Registered? <a href="#">Login</a></p>
+                    <p class="message">Already Registered? <a id="loginLink" href="#"><br>Login</a></p>
             </form>
         </div>
     </div>

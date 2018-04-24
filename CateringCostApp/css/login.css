@@ -1,23 +1,11 @@
 
-#bodyLogin {
-    background-image: url(http://backgroundcheckall.com/wp-content/uploads/2017/12/catering-background-5.jpg);
-    height: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 50px;
-    color: white;
-  }
-
-.image1 {
-  max-width: 300px;
-  margin: auto;
-}
 
 .login, .register {
   border: solid white 1px;
   max-width: 325px;
   margin: auto;
   padding: 45px;
+  color: white;
   border-radius: 25px;
 }
 
