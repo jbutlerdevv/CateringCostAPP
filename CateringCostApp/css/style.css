@@ -1,4 +1,6 @@
-body {    
+
+
+body {
     font-family: "Arial", Gadget, sans-serifs;
     text-align: center;
     padding-bottom: 100px;
@@ -11,7 +13,7 @@ body {
 }
 td {
     text-align: right;
-    background-color: grey; 
+    background-color: grey;
 }
 th {
     background-color: lightslategray;
@@ -31,7 +33,7 @@ footer {
 .image1 {
     max-width: 300px;
     padding-top: 50px;
-  }
+}
 #submit-button {
     padding: 25px;
 }
