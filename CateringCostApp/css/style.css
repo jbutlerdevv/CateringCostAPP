@@ -2,10 +2,12 @@ body {
     font-family: "Arial", Gadget, sans-serifs;
     text-align: center;
     padding-bottom: 100px;
-    background-image: url(http://backgroundcheckall.com/wp-content/uploads/2017/12/catering-background-5.jpg);
+    background: url(http://backgroundcheckall.com/wp-content/uploads/2017/12/catering-background-5.jpg);
     height: 100%;
     background-repeat: no-repeat;
-    background-size: cover;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
 }
 td {
     text-align: right;
